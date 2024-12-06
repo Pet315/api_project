@@ -28,3 +28,10 @@ services:
     App\Controller\:
         resource: '../src/Controller'
         tags: [ 'controller.service_arguments' ]
+
+    Predis\Client:
+        arguments:
+            $parameters:
+                scheme: 'tcp'
+                host: '127.0.0.1'
+                port: 6379

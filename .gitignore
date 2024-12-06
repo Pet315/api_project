@@ -1,6 +1,7 @@
 
 ###> symfony/framework-bundle ###
 /tasks.txt
+/redis_draft.php
 /.env
 /.env.test
 /.env.local
